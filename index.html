@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" >
+		<title>Malory Sotomayor</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Muli:300|Raleway:300,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		
+		<header class="header container-fluid">
+			<div class="nav-toggle-wrapper">
+				<button class="nav-toggle-btn">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</button>
+			</div>
+			<nav class="header__nav">
+				<ul class="nav">
+					<li class="header__nav__item"><a href="#about" data-ref="about">sobre mi</a></li>
+					<li class="header__nav__item"><a href="#portfolio" data-ref="portfolio">portafolio</a></li>
+					<li class="header__nav__item"><a href="#contact" data-ref="contact">contacto</a></li>
+				</ul>
+			</nav>
+			<ul class="header__social-btns">
+				<li> <a class="fa fa-facebook" href="https://www.facebook.com/sotomayormalory"></a> </li>
+				<li> <a class="fa fa-github" href="https://github.com/MalorySotomayor" target="_blank" ></a> </li>
+				<li> <a class="fa fa-twitter" href="https://twitter.com/sotomayormalory" target="_blank"></a> </li>
+				<li> <a class="fa fa-linkedin" href="https://pe.linkedin.com/in/malory-sotomayor-57a17075" target="_blank"></a> </li>
+				<li> <a class="fa fa-google" href="https://plus.google.com/+MalorySotomayor" target="_blank"></a> </li>
+			</ul>
+		</header>
+		
+		<main>
+		
+			<section id="about" class="main-section">
+				<div class="col-md-6">
+					<img class="melo" src="img/melo.jpg" width="50%">
+				</div>
+				<div class="col-md-6">
+					<p class="about__intro">
+						Hola, soy diseñadora publicitaria <br> y programadora web (<a href="http://laboratoria.la/" data-ref="about">Laboratoria</a>), <br> interesada en la ilustración. 
+						<br> Me estoy especializando en JS y <br> haciendo ilustraciones por la noche <br> como pasatiempo. <br>
+						Nací y me crié en la tierra de los incas <br> y la pachamama, Perú.<br>
+						Me encanta casi cualquier cosa en el <br> invierno, aparte del manga y el anime.
+					</p>
+					<a href="#portfolio" class="global-button rotated scroll"> ve mi portafolio </a>
+				</div>
+			</section>
+			
+			<section id="portfolio" class="container main-section">
+				<div class="filters row js-dis">
+					<h4 class="filters__title"> <i class="fa fa-tags"></i> </h4>
+					<ul class="filters__list">
+						<li class="filters__label is-active"> todos </li>
+						<li class="filters__label" data-cat="fcc"> wordpress</li>
+						<li class="filters__label" data-cat="personal"> one page</li>
+					</ul>
+				</div>
+				
+				<div class="portfolio__project-wrapper row">
+				
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
+						<a href="http://tactical-it.pe/" target="_blank" title="view live">
+							<div class="portfolio__project__preview">
+								<img src="img/tacticalit.jpg" alt="random quotes"> 
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name">Tactical It</h3>
+									<p class="portfolio__project__category"> #wordpress</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
+						<a href="https://www.lilianacosta.com/" target="_blank" title="coming soon">
+							<div class="portfolio__project__preview">
+								<img src="img/lilianacosta.jpg" alt="javascript calculator">
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name">Liliana Costa</h3>
+									<p class="portfolio__project__category"> #wordpress</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+						<a href="http://dayhouse.pe/" target="_blank" title="coming soon">
+							<div class="portfolio__project__preview">
+								<img src="img/dayhouse.jpg" alt="text editor"> 
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name">Day House</h3>
+									<p class="portfolio__project__category">#one page</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+						<a href="http://mimar-mancora.com/" target="_blank" title="what's a becteriophage?">
+							<div class="portfolio__project__preview">
+								<img src="img/mimar.jpg" alt="random placeholder">
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name"> Mimar Máncora</h3>
+									<p class="portfolio__project__category">#one page</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+						<a href="http://casaurubamba.com/" target="_blank" title="coming soon">
+							<div class="portfolio__project__preview">
+								<img src="img/urubamba.jpg" alt="random placeholder">
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name"> Casa Urubamba </h3>
+									<p class="portfolio__project__category">#one page</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+					<div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="personal">
+						<a href="http://malorysotomayor.github.io/ProyectoMar/" target="_blank" title="coming soon">
+							<div class="portfolio__project__preview">
+								<img src="img/olasperu.jpg" alt="random placeholder">
+							</div>
+							<div class="portfolio__project__description">
+								<div class="info-wrapper">
+									<h3 class="portfolio__project__name"> Olas Perú </h3>
+									<p class="portfolio__project__category">#one page</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					
+				</div>
+				
+			</section>
+		
+		</main>
+		
+		<footer class="container">
+			<section id="contact" class="row main-section">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 contact-form-wrapper">
+					<h2 class="heading"> contacto </h2>
+					<p>malorysotomayor@gmail.com</p>
+					<!--<form class="contact-form">
+						<div class="contact-form-el">
+							<input type="text" id="name" class="input" required></input>
+							<label for="name"> tu nombre </label>
+						</div>
+						<div class="contact-form-el">
+							<input type="email" id="email" class="input" required></input>
+							<label for="email"> tu e-mail </label>
+						</div>
+						<div class="contact-form-el">
+							<textarea rows="7" id="message" class="input" required></textarea>
+							<label for="message"> tu mensaje </label>
+						</div>
+						<div class="text-right">
+							<button type="submit" class="global-button"> enviar </button>
+						</div>
+					</form>-->
+				</div>
+				<div class="col-md-4"></div>
+			</section>
+			
+		</footer>
+		
+		<script src="portfolio.js"></script>
+		<!-- Add Google Maps -->
+		<!--<script>
+			function initMap() {
+				var customMapType = new google.maps.StyledMapType([
+						{
+							"featureType": "all",
+							"elementType": "labels.text",
+							"stylers": [
+								{
+									"color": "#6c6753"
+								}
+							]
+						},
+						{
+							"featureType": "all",
+							"elementType": "labels.text.stroke",
+							"stylers": [
+								{
+									"color": "#ffffff"
+								}
+							]
+						},
+						{
+							"featureType": "administrative",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#444444"
+								}
+							]
+						},
+						{
+							"featureType": "landscape",
+							"elementType": "geometry.fill",
+							"stylers": [
+								{
+									"color": "#ffffff"
+								},
+								{
+									"lightness": "0"
+								},
+								{
+									"gamma": "1.00"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "all",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#51e6a6"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "labels.text",
+							"stylers": [
+								{
+									"color": "#6c6753"
+								},
+								{
+									"visibility": "simplified"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "labels.icon",
+							"stylers": [
+								{
+									"saturation": "-100"
+								},
+								{
+									"lightness": "11"
+								}
+							]
+						},
+						{
+							"featureType": "transit",
+							"elementType": "all",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "all",
+							"stylers": [
+								{
+									"visibility": "on"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#51ffa6"
+								},
+								{
+									"lightness": "27"
+								},
+								{
+									"saturation": "-14"
+								}
+							]
+						}
+					], {
+						name: 'Styled'
+				});
+				var customMapTypeId = 'custom_style';
+
+				var latLng = {lat:39.2257618, lng: 9.122245};
+
+				var map = new google.maps.Map(document.getElementById("map"), {
+				zoom: 13,
+				center: latLng,
+				mapTypeControlOptions: {
+				  mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
+				}
+				});
+
+				var marker = new google.maps.Marker({
+				position: latLng,
+				map: map,
+				title: "I'm here!"
+				});
+
+				map.mapTypes.set(customMapTypeId, customMapType);
+				map.setMapTypeId(customMapTypeId);
+				
+			}
+		</script>-->
+		<!--<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>-->
+		
+	</body>
+
+</html>
